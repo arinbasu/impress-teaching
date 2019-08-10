@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="impress.js-master/css/impress-demo.css" rel="stylesheet" />
+
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+<section id="overview" class="level1 step" data-scale="10">
+<h1></h1>
+</section>
+<section id="introduction" class="level1 step" data-x="-1000" data-y="-500">
+<h1>Introduction</h1>
+<p>Environmental health risk assessment is a four step process</p>
+</section>
+<section id="hazard-identification" class="level1 step" data-x="0" data-y="-500">
+<h1>Hazard Identification</h1>
+<p>What is the health hazard we want to investigate?</p>
+</section>
+<section id="exposure-assessment" class="level1 step" data-x="1000" data-y="-500" data-rotate="90">
+<h1>Exposure assessment</h1>
+<p>Assess how much are people exposed to</p>
+</section>
+<section id="dose-response-assessment" class="level1 step" data-x="1000" data-y="0">
+<h1>Dose response assessment</h1>
+<p>Assess the pattern of exposure to the toxin with the extent of the health effects that accrue</p>
+</section>
+<section id="risk-characterisation" class="level1 step" data-x="0" data-y="0">
+<h1>Risk characterisation</h1>
+<p>Combine the above information to state the extent of the risk</p>
+</section>
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="impress.js-master/js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
+
