@@ -1,0 +1,32 @@
+// a graph
+digraph {
+	A [label="this is A"]
+	B
+	L
+	A -> B
+	A -> L
+	A [label="this is A"]
+	B
+	L
+	A -> B
+	A -> L
+	B -> L
+	A [label="this is A"]
+	B
+	L
+	A -> B
+	A -> L
+	B -> L
+	A [label="this is A"]
+	B
+	L
+	A -> B
+	A -> L
+	B -> L
+	A [label="this is A"]
+	B
+	L
+	A -> B
+	A -> L
+	B -> L
+}

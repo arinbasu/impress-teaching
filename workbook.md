@@ -1,19 +1,27 @@
+---
+title: Environmental health risk assessment
+date: 10th August
+---
 
-
-```R
-library(tidyverse)
-```
 
 # {#overview .step data-scale=10}
 
-# This is a step {.step}
+# Introduction {.step data-x = "-1000" data-y = "-500"}
 
-This is a statement with **bold** font
+Environmental health risk assessment is a four step process
 
-# {.step data-x=2000}
+# Hazard Identification {.step data-x="0" data-y="-500"}
 
-This is a plain statement
+What is the health hazard we want to investigate?
 
-# {.step data-rotate=90}
+# Exposure assessment {.step data-x="1000" data-y="-500" data-rotate=90}
 
-This is another **statement**
+Assess how much are people exposed to
+
+# Dose response assessment {.step data-x="1000" data-y = "0"}
+
+Assess the pattern of exposure to the toxin with the extent of the health effects that accrue
+
+# Risk characterisation {.step data-x="0" data-y="0"}
+
+Combine the above information to state the extent of the risk
