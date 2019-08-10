@@ -1,8 +1,3 @@
----
-title: Environmental health risk assessment
-date: 10th August
----
-
 
 # {#overview .step data-scale=10}
 
