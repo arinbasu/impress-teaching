@@ -1,0 +1,52 @@
+<html lang='en'>
+  <head>
+    <title> Learning impress js </title>
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link href="impress.js-master/css/impress-demo.css" rel="stylesheet" />
+  </head>
+  <body>
+    <body class="impress-not-supported">
+      <div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+     </div>
+    
+      <div id="impress">
+      
+        <section id = "start" class="step">
+        This is the start of the presentation
+        </section>
+       
+        <section id = "s1" class="step" data-x="-1200" data-y="0">
+         Slide moves from left to right
+         
+        </section>
+        
+        <section id = "s2" class="step" data-x="2400" data-y="0"
+                 data-scale='4'>
+         Slide moves from right to left
+         
+        </section>
+        
+        <section id = "s3" class="step" 
+                 data-rotate="90">
+          <h1>Slide moves from left to right and turn 90 degrees</h1>
+         
+        </section>
+        
+        <section id = "s4" class="step" data-rotate="180">
+         Slide moves from left2right and turn 90 degrees again
+         
+        </section>
+        
+     </div>
+  
+  
+  
+    <script src="impress.js-master/js/impress.js"></script>
+    <script>impress().init();</script>
+  
+  </body>
+
+</html>
