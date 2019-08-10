@@ -8,14 +8,14 @@ Environmental health risk assessment is a four step process
 
 What is the health hazard we want to investigate?
 
-# Exposure assessment {.step data-x="1000" data-y="-500" data-rotate=90}
+# Exposure assessment {.step data-x="1000" data-y="-500"}
 
 Assess how much are people exposed to
 
-# Dose response assessment {.step data-x="1000" data-y="0"}
+# Dose response assessment {.step data-x="2000" data-y="-500"}
 
 Assess the pattern of exposure to the toxin with the extent of the health effects that accrue
 
-# Risk characterisation {.step data-x="0" data-y="0"}
+# Risk characterisation {.step data-x="3000" data-y="-500"}
 
 Combine the above information to state the extent of the risk
