@@ -6,7 +6,7 @@ date: 10th August
 
 # {#overview .step data-scale=10}
 
-# Introduction {.step data-x = "-1000" data-y = "-500"}
+# Introduction {.step data-x="-1000" data-y="-500"}
 
 Environmental health risk assessment is a four step process
 
@@ -18,7 +18,7 @@ What is the health hazard we want to investigate?
 
 Assess how much are people exposed to
 
-# Dose response assessment {.step data-x="1000" data-y = "0"}
+# Dose response assessment {.step data-x="1000" data-y="0"}
 
 Assess the pattern of exposure to the toxin with the extent of the health effects that accrue
 
